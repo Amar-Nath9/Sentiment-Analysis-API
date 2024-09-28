@@ -31,5 +31,5 @@ Before you begin, ensure you have the following installed:
    cd Sentiment-Analysis-API
 ## Generate Groq API key
 
-```bash
-https://console.groq.com/keys
+   ```bash
+   https://console.groq.com/keys
