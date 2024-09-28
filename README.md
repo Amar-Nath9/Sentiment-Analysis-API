@@ -38,7 +38,7 @@ venv\Scripts\activate
 pip install Flask pandas openpyxl groq
 
 ```
-# OR
+ OR
 ```bash
 pip install -r requirements.txt
 ```
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 set GROQ_API_KEY=your_api_key_here
 
 ```
-## Running the API\
+# Running the API\
 To run the API, execute the following command in your terminal:
 ```bash
 python app.py
