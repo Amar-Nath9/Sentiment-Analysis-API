@@ -60,7 +60,6 @@
 </ul>
 
 <h2>Installation</h2>
-
 <ol>
     <li><strong>Clone the Repository:</strong>
         <pre>
@@ -113,7 +112,6 @@ export GROQ_API_KEY=your_api_key_here
 </ol>
 
 <h2>Running the API</h2>
-
 <ol>
     <li><strong>Start the Flask Application:</strong>
         <pre>
@@ -124,10 +122,8 @@ python app.py
 </ol>
 
 <h2>API Usage</h2>
-
 <h3>Upload Reviews</h3>
 <p>To upload a file containing reviews, use the following POST request:</p>
-
 <ul>
     <li><strong>Endpoint:</strong> <code>http://127.0.0.1:5000/upload</code></li>
     <li><strong>Method:</strong> <code>POST</code></li>
@@ -144,7 +140,6 @@ python app.py
 </ul>
 
 <h3>Example</h3>
-
 <h4>Request:</h4>
 <pre>
 curl -X POST http://127.0.0.1:5000/upload \
@@ -182,7 +177,6 @@ curl -X POST http://127.0.0.1:5000/upload \
 </pre>
 
 <h3>Error Handling</h3>
-
 <ul>
     <li><strong>No file provided:</strong>
         <pre>
