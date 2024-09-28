@@ -29,3 +29,7 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/Amar-Nath9/Sentiment-Analysis-API.git
    cd Sentiment-Analysis-API
+## Generate Groq API key
+
+```bash
+https://console.groq.com/keys
