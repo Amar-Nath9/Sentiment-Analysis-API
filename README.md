@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
 </head>
 <body>
 
@@ -119,24 +118,12 @@ curl -X POST http://127.0.0.1:5000/upload \
 </pre>
 
 <h4>Sample Input File (<code>reviews.csv</code>):</h4>
-<table>
-    <thead>
-        <tr>
-            <th>Review</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>The product was amazing!</td>
-        </tr>
-        <tr>
-            <td>Very disappointing quality.</td>
-        </tr>
-        <tr>
-            <td>It was okay, nothing special.</td>
-        </tr>
-    </tbody>
-</table>
+<pre>
+Review
+The product was amazing!
+Very disappointing quality.
+It was okay, nothing special.
+</pre>
 
 <h4>Response:</h4>
 <pre>
